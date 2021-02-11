@@ -1,6 +1,5 @@
-# Change these first
-owner: CoursePropeller # Your GitHub username
-repo: coursepropeller.github.io # Your GitHub repository name
+owner: evandempsey
+repo: coursepropeller.github.io
 
 # Add your sites here
 sites:
@@ -24,9 +23,7 @@ assignees:
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   cname: status.coursepropeller.com
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
   name: CoursePropeller Status
   introTitle: CoursePropeller Status
   introMessage: Details of service status and incidents.
@@ -36,7 +33,7 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/CoursePropeller/coursepropeller.github.io
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
