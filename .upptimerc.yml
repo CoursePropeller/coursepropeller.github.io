@@ -6,17 +6,6 @@ user-agent: evandempsey
 sites:
   - name: Homepage
     url: https://coursepropeller.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
-    method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
 
 assignees:
   - evandempsey
@@ -26,8 +15,8 @@ status-website:
   cname: status.coursepropeller.com
   logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
   name: ''
-  introTitle: CoursePropeller Status
-  introMessage: Details of service status and incidents.
+  introTitle: System Status
+  introMessage: CoursePropeller component uptime and incidents.
   navbar:
     - title: Home
       href: https://coursepropeller.com
