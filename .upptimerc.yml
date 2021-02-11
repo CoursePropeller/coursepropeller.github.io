@@ -23,7 +23,6 @@ status-website:
       href: https://github.com/CoursePropeller/coursepropeller.github.io
 
   favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
-  # themeUrl: http://status.coursepropeller.com/coursepropeller_theme.css
   css: ":root {
     --body-background-color: #f5f6fe;
     --nav-current-border-bottom-color: #3252c3;
@@ -36,6 +35,9 @@ status-website:
     --error-button-border-color: #3252c3;
     --error-button-background-color: #3252c3;
     --error-button-color: #ffffff;
+  }
+  .logo > div {
+    display: none;
   }"
 
 i18n:
