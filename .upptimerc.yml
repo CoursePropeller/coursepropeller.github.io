@@ -10,8 +10,8 @@ assignees:
 
 status-website:
   cname: status.coursepropeller.com
-  logoUrl: https://status.coursepropeller.com/logo_text_black.svg
-  name: ''
+  logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
+  name: 'CoursePropeller System Status'
   introTitle: System Status
   introMessage: Component uptime and incidents.
   navbar:
@@ -22,8 +22,21 @@ status-website:
     - title: GitHub
       href: https://github.com/CoursePropeller/coursepropeller.github.io
 
-  favicon: https://status.coursepropeller.com/favicon-32x32.png
-  themeUrl: https://status.coursepropeller.com/coursepropeller_theme.css
+  favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
+  # themeUrl: http://status.coursepropeller.com/coursepropeller_theme.css
+  css: ":root {
+    --body-background-color: #f5f6fe;
+    --nav-current-border-bottom-color: #3252c3;
+    --body-text-color: #404040;
+
+    --submit-button-border-color: #3252c3;
+    --submit-button-background-color: #3252c3;
+    --submit-button-color: #ffffff;
+
+    --error-button-border-color: #3252c3;
+    --error-button-background-color: #3252c3;
+    --error-button-color: #ffffff;
+  }"
 
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
