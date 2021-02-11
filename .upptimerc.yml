@@ -2,7 +2,6 @@ owner: CoursePropeller
 repo: coursepropeller.github.io
 user-agent: evandempsey
 
-# Add your sites here
 sites:
   - name: Homepage
     url: https://coursepropeller.com
@@ -11,12 +10,11 @@ assignees:
   - evandempsey
 
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
   cname: status.coursepropeller.com
   logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
   name: ''
   introTitle: System Status
-  introMessage: CoursePropeller component uptime and incidents.
+  introMessage: Component uptime and incidents.
   navbar:
     - title: Home
       href: https://coursepropeller.com
