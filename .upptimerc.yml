@@ -10,7 +10,7 @@ assignees:
 
 status-website:
   cname: status.coursepropeller.com
-  logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
+  logoUrl: https://status.coursepropeller.com/logo_text_black.svg
   name: ''
   introTitle: System Status
   introMessage: Component uptime and incidents.
@@ -22,10 +22,8 @@ status-website:
     - title: GitHub
       href: https://github.com/CoursePropeller/coursepropeller.github.io
 
-  favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
-  links:
-    - rel: stylesheet
-      href: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/coursepropeller_theme.css
+  favicon: https://status.coursepropeller.com/favicon-32x32.png
+  themeUrl: https://status.coursepropeller.com/coursepropeller_theme.css
 
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
