@@ -24,7 +24,7 @@ status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   cname: status.coursepropeller.com
   logoUrl: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/logo_text_black.svg
-  name: CoursePropeller Status
+  name: ''
   introTitle: CoursePropeller Status
   introMessage: Details of service status and incidents.
   navbar:
@@ -34,6 +34,9 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/CoursePropeller/coursepropeller.github.io
+
+i18n:
+  footer: Powered by [Upptime](https://upptime.js.org)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
