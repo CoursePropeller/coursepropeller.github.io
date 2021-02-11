@@ -1,7 +1,6 @@
 owner: CoursePropeller
 repo: coursepropeller.github.io
 user-agent: evandempsey
-
 sites:
   - name: Homepage
     url: https://coursepropeller.com
@@ -22,6 +21,11 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/CoursePropeller/coursepropeller.github.io
+
+  favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/coursepropeller_theme.css
 
 i18n:
   footer: Powered by [Upptime](https://upptime.js.org)
