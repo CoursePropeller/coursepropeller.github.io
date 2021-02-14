@@ -24,16 +24,16 @@ status-website:
 
   favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
   css: ":root {
-    --body-background-color: #f5f6fe;
-    --nav-current-border-bottom-color: #3252c3;
+    --body-background-color: #eaf8ed;
+    --nav-current-border-bottom-color: #349A4B;
     --body-text-color: #404040;
 
-    --submit-button-border-color: #3252c3;
-    --submit-button-background-color: #3252c3;
+    --submit-button-border-color: #349A4B;
+    --submit-button-background-color: #349A4B;
     --submit-button-color: #ffffff;
 
-    --error-button-border-color: #3252c3;
-    --error-button-background-color: #3252c3;
+    --error-button-border-color: #349A4B;
+    --error-button-background-color: #349A4B;
     --error-button-color: #ffffff;
   }
   .logo > div {
