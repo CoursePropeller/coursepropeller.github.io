@@ -24,7 +24,7 @@ status-website:
 
   favicon: https://raw.githubusercontent.com/CoursePropeller/coursepropeller.github.io/master/assets/favicon-32x32.png
   css: ":root {
-    --body-background-color: #eaf8ed;
+    --body-background-color: #f1faf3;
     --nav-current-border-bottom-color: #349A4B;
     --body-text-color: #404040;
 
